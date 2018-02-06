@@ -5,36 +5,9 @@
 <%@ page contentType="text/html;charset=UTF-8"%>
 <html>
 <head>
-    <link rel="stylesheet" href="../../resources/css/bootstrap.min.css">
+
     <title>BOOK</title>
 
-    <style type="text/css">
-        .tg td {
-            font-family: Arial, sans-serif;
-            font-size: 14px;
-            padding: 10px 5px;
-            border-style: solid;
-            border-width: 1px;
-            overflow: hidden;
-            word-break: normal;
-            border-color: #ccc;
-            color: #333;
-            background-color: #fff;
-        }
-        .tg th {
-            font-family: Arial, sans-serif;
-            font-size: 14px;
-            font-weight: normal;
-            padding: 10px 5px;
-            border-style: solid;
-            border-width: 1px;
-            overflow: hidden;
-            word-break: normal;
-            border-color: #ccc;
-            color: #333;
-            background-color: #f0f0f0;
-        }
-    </style>
 </head>
 
 <body class="panel-body">

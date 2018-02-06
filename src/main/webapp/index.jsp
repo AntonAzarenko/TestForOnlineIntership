@@ -5,7 +5,7 @@
         <title>Book Manager Application</title>
     </head>
     <body>
-        <h3>Book Manager</h3>
+        <h1>Book Manager</h1>
         <a href="<c:url value="/books"/>" >Books</a>
     </body>
 </html>

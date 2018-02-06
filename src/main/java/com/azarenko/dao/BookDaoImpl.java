@@ -1,5 +1,6 @@
 package com.azarenko.dao;
 
+
 import com.azarenko.model.Book;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -72,7 +73,7 @@ public class BookDaoImpl implements BookDao{
 
     @Override
     @SuppressWarnings("unchecked")
-    public List<Book> listbooks() {
+    public List<Book> listBooks() {
         Session session = this.sessionFactory.getCurrentSession();
         List<Book> bookList = session.createQuery("from Book").list();
 

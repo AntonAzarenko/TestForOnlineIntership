@@ -54,7 +54,7 @@
         <property name="bookDao" ref="bookDao"/>
     </bean>
 
-    <context:component-scan base-package="org.gvp"/>
+    <context:component-scan base-package="com.azarenko"/>
 
     <tx:annotation-driven transaction-manager="transactionManager"/>
 
